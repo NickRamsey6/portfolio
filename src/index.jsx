@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDom from 'react-dom';
 import App from './components/App';
 import { HashRouter } from 'react-router-dom';
+import 'react-mdl/extra/material.css';
+import 'react-mdl/extra/material.js';
 
 const render = (Component) => {
   ReactDom.render(
