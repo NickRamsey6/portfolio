@@ -1,1 +1,10 @@
+body {
+  background-image: url('./assets/images/bg.jpg')
+}
+.mdl-layout__header-row .mdl-navigation__link {
+  color: #FFCC00;
+}
 
+.material-icons {
+  color: #FFCC00;
+}

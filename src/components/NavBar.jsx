@@ -8,7 +8,7 @@ function NavBar() {
     <div className="demo-big-content">
         <Layout>
             <Header className="header" scroll>
-                <Navigation>
+                <Navigation className='link'>
                     <Link to="/">Home</Link>
                     <Link to="/about">About</Link>
                     <Link to="/resume">Resume</Link>
