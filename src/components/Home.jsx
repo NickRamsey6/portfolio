@@ -1,19 +1,30 @@
 import React from 'react';
-import { Grid, Cell } from 'react-mdl';
 import prof from '../assets/images/profPic.jpeg'
 import './Home.css'
 
 function Home() {
   return (
     <div className="content">
-      <Grid className="home-grid">
-        <Cell col={12}></Cell>
+      <div className='title-pic'>
         <h2>Home Page</h2>
         <img className='prof-pic' src={prof} alt='linkedin pic'/>
-        <div className="title">
-          <h2>Full Stack Web Development | Data Visualization</h2>
+      </div>
+      <div className="title">
+        <h2>Web Development | Data Visualization</h2>
+        <hr/>
+        <p>React (Redux) | Ruby on Rails | JavaScript | R | Tableau | HTML | CSS</p>
+        <div className="social-links">
+          <a href="https://www.linkedin.com/in/nick-ramsey-pdx/" rel="noopener noreferrer" target="_blank">
+            <i className="fa fa-linkedin-square" aria-hidden="true"></i>
+          </a>
+          <a href="https://github.com/NickRamsey6" rel="noopener noreferrer" target="_blank">
+            <i className="fa fa-github-square" aria-hidden="true"></i>
+          </a>
+          <a href="mailto:nramseysc@gmail.com" rel="noopener noreferrer" target="_blank">
+            <i className="fa fa-at" aria-hidden="true"></i>
+          </a>
         </div>
-      </Grid>
+      </div>
     </div>
   );
 }
