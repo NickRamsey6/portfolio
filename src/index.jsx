@@ -4,6 +4,7 @@ import App from './components/App';
 import { HashRouter } from 'react-router-dom';
 import 'react-mdl/extra/material.css';
 import 'react-mdl/extra/material.js';
+import './index.css';
 
 const render = (Component) => {
   ReactDom.render(

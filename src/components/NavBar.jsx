@@ -1,25 +1,28 @@
 import React from 'react';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
-import './App.css';
+import { Link } from 'react-router-dom'
+import './NavBar.css';
 
 function NavBar() {
   return (
     <div className="demo-big-content">
         <Layout>
-            <Header className="header-color"title="Title" scroll>
+            <Header className="header" scroll>
                 <Navigation>
-                    <a href="/">Link</a>
-                    <a href="/">Link</a>
-                    <a href="/">Link</a>
-                    <a href="/">Link</a>
+                    <Link to="/">Home</Link>
+                    <Link to="/about">About</Link>
+                    <Link to="/resume">Resume</Link>
+                    <Link to="/projects">Projects</Link>
+                    <Link to="/dataviz">DataViz</Link>
                 </Navigation>
             </Header>
-            <Drawer title="Title">
+            <Drawer>
                 <Navigation>
-                    <a href="/">Link</a>
-                    <a href="/">Link</a>
-                    <a href="/">Link</a>
-                    <a href="/">Link</a>
+                  <Link to="/">Home</Link>
+                  <Link to="/about">About</Link>
+                  <Link to="/resume">Resume</Link>
+                  <Link to="/projects">Projects</Link>
+                  <Link to="/dataviz">DataViz</Link>
                 </Navigation>
             </Drawer>
             <Content>
