@@ -14,7 +14,7 @@ function Home() {
         <hr/>
         <p>React (Redux) | Ruby on Rails | JavaScript | R | Tableau | HTML | CSS</p>
         <div className="social-links">
-          <a href="https://www.linkedin.com/in/nick-ramsey-pdx/" rel="noopener noreferrer" target="_blank">
+          <a href="http://www.linkedin.com/in/nick-ramsey-pdx/" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-linkedin-square" aria-hidden="true"></i>
           </a>
           <a href="https://github.com/NickRamsey6" rel="noopener noreferrer" target="_blank">
